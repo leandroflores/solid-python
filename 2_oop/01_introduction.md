@@ -204,15 +204,15 @@ class Rectangle(Shape):
 
 class Circle(Shape):
 
-  def __init__(self, color: str, radio: float):
+  def __init__(self, color: str, radius: float):
     super().__init__(color)
-    self.radio: float = radio
+    self.radius: float = radius
 
   def area(self) -> float:
-    return 3.14 * (self.radio ** 2)
+    return 3.14 * (self.radius ** 2)
 
   def perimeter(self) -> float:
-    return 2 * 3.14 * self.radio
+    return 2 * 3.14 * self.radius
 
 r1: Rectangle = Rectangle("Blue", 1.30, 3.25)
 print(r1.area())
