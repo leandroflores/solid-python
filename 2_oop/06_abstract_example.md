@@ -1,8 +1,8 @@
 # Object Oriented Programming
 
-## Example
+## Interface Example
 
-In this example, we will use the concepts of **interface**m **abstract methods**, and **override** for these **methods**.
+In this example, we will use the concepts of **interface**, **abstract methods**, and **override** for these **methods**.
 
 ```python
 from abc import ABC, abstractmethod
