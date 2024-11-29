@@ -30,7 +30,7 @@ class Penguin(Bird):
 
 In this case, the initial code has a `Penguin` **class** that **inherits** from the `Bird` **class** and **overrides** the `fly()` method.
 
-This violates the **L**iskov **S**ubstitution **P**rinciple (**LSP**). which states that **objects** of a **superclass** should be able to be replaced with objects of a **subclass** without affecting the correctness of the program.
+This violates the **L**iskov **S**ubstitution **P**rinciple (**LSP**), which states that **objects** of a **superclass** should be able to be replaced with objects of a **subclass** without affecting the correctness of the program.
 
 If we were to use the `Penguin` class in a context where a `Bird` is expected, we might get unexpected behavior due to the **overriden** `fly()` method.
 
@@ -68,6 +68,6 @@ The `FlyingBird` class implements the `fly()` method, while the `NonFlyingBird` 
 
 The `Penguin` class now inherits from `NonFlyingBird`.
 
-This **adheres** to the **Liskov Substitution Principle** bacause any subclasses of `Bird` can now be substituted without altering the correctness of the program.
+This **adheres** to the **Liskov Substitution Principle** because any subclasses of `Bird` can now be substituted without altering the correctness of the program.
 
 The code is **more robust** and **less prone** to errors.

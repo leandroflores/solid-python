@@ -87,6 +87,6 @@ The `Shape` **class** defines a contract with the `area` **abstract method**. Bo
 
 The `AreaCalculator` class calls the `area()` method on the `Shape` object directly, without the need for conditional statements.
 
-This **adheres** to the **Open-Closed Principle** bacause we can now add more shapes without modifying the `AreaCalculator` class.
+This **adheres** to the **Open-Closed Principle** because we can now add more shapes without modifying the `AreaCalculator` class.
 
 The code is **more flexible** and **easier** to **extend** with new feature.
