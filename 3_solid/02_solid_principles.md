@@ -19,7 +19,7 @@ In this chapter, we presents a overview of **SOLID** Principles of object-orient
 
 *"There should never be more than a reason for a class to change"*
 
-In other words, a **class** can be responsibilized for example: persistence, conditions, notification, logging, formatting, parsing, error handling. However, a **class** must be deal with just only one task.
+In other words, a **class** can be responsibilized for only one taks. For example: persistence, conditions, notification, logging, formatting, parsing, error handling. Therefore, a **class** must be deal with only one of this tasks.
 
 ### Open-Closed Principle
 
